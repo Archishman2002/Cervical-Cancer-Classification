@@ -1,0 +1,16 @@
+Preparation - models:
+
+1. ResNet50:
+ResNet model which has 48 Convolution layers along with 1 MaxPool and 1 Average Pool layer.
+While the original Resnet had 34 layers and used 2-layer blocks, other advanced variants such as the Resnet50 made the use of 3-layer bottleneck blocks to ensure improved accuracy and lesser training time.
+
+2. EfficientNet-B3:
+10,3646 million weights, IRC means there is inverted residual connection.
+achieve both higher accuracy and better efficiency over existing CNNs on ImageNet.
+
+3. Inception-V4:
+more uniform simplified architecture and more inception modules than Inception-v3.
+pure Inception variant without any residual connections. It can be trained without partitioning the replicas, with memory optimization to backpropagation.
+
+4. MobileNetV3:
+semantic segmentation based on the idea of pooling as used Squeeze and Excitation.
